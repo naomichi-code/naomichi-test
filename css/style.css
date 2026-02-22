@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  background: linear-gradient(135deg, #0d47a1, #1565c0, #1e88e5);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #bbdefb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* ヒーローセクション */
+.hero {
+  background: linear-gradient(180deg, #1565c0 0%, #42a5f5 40%, #90caf9 70%, #e3f2fd 100%);
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* フッター */
+footer {
+  background: #0d47a1;
+  color: #90caf9;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
